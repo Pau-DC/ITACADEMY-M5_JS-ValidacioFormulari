@@ -1,0 +1,212 @@
+/* GENERAL */
+
+/* TOP BAR */ 
+#top-bar,  .top-bar-bg{
+  width: 100%;
+  height: 40px;
+  top: 0;
+  background-color: #222222;
+}
+
+.top-bar-bg{
+  position: absolute;
+}
+
+#top-bar-content{
+  margin: 0 auto;
+}
+
+#top-bar-content .social-media{
+  padding-left: 15px;
+}
+
+.xxss-logo{
+  display: inline-block;
+  height: 30px;
+  margin: 5px 5px;
+}
+
+.xxss-logo img{
+  height: 100%;
+}
+
+#login{
+  height: 40px;
+  margin: 0px 15px;
+}
+#login a{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#login a:hover{
+  background-color: #444444;
+}
+
+/* HEADER */
+header{
+  width: 100%;
+  height: 150px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dadada;
+}
+
+#logo-capcalera img{
+  width: 80%;
+}
+
+#buscador{
+  position: relative;
+  top: 40px;
+}
+
+#buscador input{
+  width: 250px;
+  margin: 0 15px;
+}
+
+/* LOGIN I SINGRUP SCREEN */
+#login-screen,
+#signup-screen{
+  margin-top: 15px;
+  padding: 15px;
+}
+
+#login-screen #section-form{
+  width: 300px;
+}
+
+#signup-screen #section-form{
+  width: 500px;
+}
+
+#section-form{
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #D0D0D0;
+  border-radius: 10px;
+}
+
+#section-form h4{
+  margin-bottom: 25px;
+}
+
+/* CATÀLEG DE LLIBRES */
+.colleccio-inici{
+  width: 100%;
+  margin-top: 15px;
+  background-color: #efefef;
+}
+
+.colleccio-inici-fila{
+padding: 0px 15px;
+}
+
+.colleccio-inici-titol{
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  background-color: #D0D0D0;
+  border-left: 15px #e71515 solid;
+}
+
+.colleccio-inici a:hover,
+.colleccio-inici-titol:hover{
+  text-decoration: none;
+  background-color: #a0a0a0;
+}
+
+.colleccio-inici-titol h2{
+  color: #555555;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+}
+
+.card{
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card-body{
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.card .btn{
+  font-size: 0.7rem;
+}
+
+/* FOOTER */
+footer{
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+  background-color: black;
+}
+
+#footer-content{
+  height: 100%;
+}
+
+#footer-content .social-media ul,
+#footer-content .contact ul{
+  margin: 0;
+  padding: 0;
+}
+
+#footer-content .social-media,
+#footer-content .rights,
+#footer-content .contact{
+  margin: 5px 15px;
+}
+
+#footer-content .rights{
+  font-size: 9px;
+  color: #ffffff;
+}
+
+#footer-content .contact ul{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+  list-style: none;
+}
+
+/***** MEDIA QUERYS ******/
+/* SM */
+@media (min-width: 576px) { 
+
+}
+
+/* MD */
+@media (min-width: 768px) {
+
+}
+
+/* LG */
+@media (min-width: 992px) {
+
+}
+
+/* XL */
+@media (min-width: 1200px) {
+
+}
